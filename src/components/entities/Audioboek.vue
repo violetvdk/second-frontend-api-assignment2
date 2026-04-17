@@ -41,9 +41,9 @@
               <div v-for="v in value" :key="'authors-' + v">{{ String(v) }}</div>
             </div>
             <!-- link -->
-            <router-link v-else-if="key === 'link'" :to="value">
+            <a v-else-if="key === 'link'" :href="value" target="_blank" rel="noopener noreferrer">
               {{ String(value) }}
-            </router-link>
+            </a>
             <!-- default -->
             <span v-else>{{ String(value) }}</span>
           </td>
