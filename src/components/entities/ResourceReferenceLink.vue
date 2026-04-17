@@ -65,8 +65,4 @@ function getName(resource) {
   const config = RESOURCE_CONFIG[props.resourceType]
   return config ? config.getName(resource) : String(resource)
 }
-
-function buildResourcePath(type, res, getNameFunc) {
-  return buildResourcePath(type, res, getNameFunc)
-}
 </script>
