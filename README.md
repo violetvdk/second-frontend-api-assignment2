@@ -9,8 +9,6 @@ This is a Vue.js frontend application for managing audiobooks, genres, positions
 - **Vite** for build tooling
 - **ESLint** for code linting
 
-## Getting Started
-
 1. Install dependencies:
    ```bash
    npm install
@@ -25,14 +23,3 @@ This is a Vue.js frontend application for managing audiobooks, genres, positions
    ```bash
    npm run build
    ```
-
-## Features
-
-- Browse and manage audiobooks, genres, positions, reviews, and users
-- Create, read, update, and delete resources
-- Responsive navigation
-- API integration with proxy to backend
-
-## API Proxy
-
-The app proxies API requests to `https://groep40.webdev.stud.atlantis.ugent.be` via `/api`.
