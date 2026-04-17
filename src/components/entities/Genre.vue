@@ -7,13 +7,13 @@
           <td>
             <!-- audiobooks -->
             <div v-if="key === 'audiobooks'">
-              <ResourceReferenceLink
-                v-for="audiobookUrl in value"
-                :key="'audiobooks-' + audiobookUrl"
-                resourceType="audiobooks"
-                :resourceUrl="audiobookUrl"
-                :fallbackLabel="String(audiobookUrl)"
-              />
+              <div v-for="audiobookUrl in value" :key="'audiobooks-' + audiobookUrl">
+                <ResourceReferenceLink
+                  resourceType="audiobooks"
+                  :resourceUrl="audiobookUrl"
+                  :fallbackLabel="String(audiobookUrl)"
+                />
+              </div>
             </div>
             <!-- url -->
             <router-link

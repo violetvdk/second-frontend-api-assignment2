@@ -7,13 +7,13 @@
           <td>
             <!-- genres -->
             <div v-if="key === 'genres'">
-              <ResourceReferenceLink
-                v-for="genreUrl in value"
-                :key="'genres-' + genreUrl"
-                resourceType="genres"
-                :resourceUrl="genreUrl"
-                :fallbackLabel="String(genreUrl)"
-              />
+              <div v-for="genreUrl in value" :key="'genres-' + genreUrl">
+                <ResourceReferenceLink
+                  resourceType="genres"
+                  :resourceUrl="genreUrl"
+                  :fallbackLabel="String(genreUrl)"
+                />
+              </div>
             </div>
             <!-- reviews and positions -->
             <div v-else-if="['reviews', 'positions'].includes(key)">

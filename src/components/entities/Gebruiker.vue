@@ -7,13 +7,11 @@
           <td>
             <!-- reviews and positions -->
             <div v-if="['reviews', 'positions'].includes(key)">
-              <router-link
-                v-for="v in value"
-                :key="key + '-' + v"
-                :to="'/' + key + '/' + encodeURIComponent(v)"
-              >
-                {{ String(v) }}
-              </router-link>
+              <div v-for="v in value" :key="key + '-' + v">
+                <router-link :to="'/' + key + '/' + encodeURIComponent(v)">
+                  {{ String(v) }}
+                </router-link>
+              </div>
             </div>
             <!-- url -->
             <router-link
