@@ -38,7 +38,7 @@ import {
   API_BEARER_TOKEN,
   getMediaTypeForCategory,
   buildRequestHeaders
-} from '../../../data/apiConfig.jsx'
+} from '../../../data/apiConfig.js'
 
 const props = defineProps({
   category: { type: String, required: true },

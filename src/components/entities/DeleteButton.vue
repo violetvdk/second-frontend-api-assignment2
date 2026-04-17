@@ -11,7 +11,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { buildRequestHeaders } from '../../data/apiConfig.jsx'
+import { buildRequestHeaders } from '../../data/apiConfig.js'
 
 const props = defineProps({
   resourceUrl: { type: String, required: true },

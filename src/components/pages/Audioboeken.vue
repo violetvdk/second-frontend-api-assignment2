@@ -57,7 +57,7 @@ import { ref, watch } from 'vue'
 import fetchIndex from '../../data/index.jsx'
 import PostScreen from '../pop-ups/post/PostScreen.vue'
 import DeleteButton from '../entities/DeleteButton.vue'
-import { buildDeleteRequestInfo } from '../../data/apiConfig.jsx'
+import { buildDeleteRequestInfo } from '../../data/apiConfig.js'
 import { buildResourcePath, getAudiobookName } from '../../utils/resourceRouting.js'
 
 const pageAmount = 100
