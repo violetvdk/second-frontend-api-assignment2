@@ -228,32 +228,32 @@
 }
 
 .post-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2000;
-  padding: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 16px;
 }
 
 .post-screen-card {
-  width: min(760px, 96vw);
-  max-height: 88vh;
-  overflow-y: auto;
-  background: #fffdf7;
-  border: 1px solid #e7d6ba;
-  border-radius: 12px;
-  padding: 20px 22px;
-  color: #5f4040;
+    width: min(760px, 96vw);
+    max-height: 88vh;
+    overflow-y: auto;
+    background: #fffdf7;
+    border: 1px solid #e7d6ba;
+    border-radius: 12px;
+    padding: 20px 22px;
+    color: #5f4040;
 }
 
 .post-screen-card button {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .post-message {
@@ -289,65 +289,6 @@
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
-
-.post-fields-wrapper {
-  margin-top: 10px;
-}
-
-.post-fields-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #e7d6ba;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.post-fields-table th,
-.post-fields-table td {
-  border-bottom: 1px solid #e7d6ba;
-  padding: 10px 12px;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.post-fields-table tr:last-child th,
-.post-fields-table tr:last-child td {
-  border-bottom: none;
-}
-
-.post-fields-table th {
-  background-color: #f8e8d0;
-  color: #5f4040;
-}
-
-.post-fields-table td {
-  background-color: #fffdf7;
-}
-
-.post-fields-table input {
-  width: 100%;
-  border: 1px solid #d7c7ae;
-  border-radius: 8px;
-  padding: 8px 10px;
-  font-size: 14px;
-}
-
-.required-star {
-  color: #b33a3a;
-  font-weight: 700;
-}
-
-.previousPage,
-.nextPage {
-  margin: 0 6px 16px;
-  border: 1px solid #c18927;
-  border-radius: 10px;
-  padding: 8px 14px;
-  color: #5f4040;
-  background: #fff6e6;
-  font-weight: 700;
-  cursor: pointer;
 }
 
 @media (max-width: 954px) {
@@ -549,4 +490,3 @@
     width: 100%;
   }
 }
-
